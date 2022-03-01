@@ -1,0 +1,19 @@
+@import "../../Common/commonClasses.css";
+.feel-special{
+   background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+    background-color:var(--bg-red);
+}
+
+@media all and (max-width:1279px) {
+    .feel-special{
+        background-position: center bottom;
+    }
+}
+
+@media all and (max-width:769px) {
+    .feel-special{
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+        background-position: right center;
+        min-height: 1150px;
+    }
+}
