@@ -1,0 +1,20 @@
+@import "../../../Common/commonClasses.css";
+
+.button-wrappper{
+        cursor: pointer;
+        background-color: var(--white);
+        color: var(--bg-black);
+        font-size: 24px;
+        font-weight: 700;
+        padding: 1.25rem 4rem;
+         border-radius:40px ;
+        width: max-content;
+        
+}       
+
+@media all and (max-width:769px){
+  .button-wrappper{
+        font-size: 18px;
+        padding: 10px 24px;
+        }
+}

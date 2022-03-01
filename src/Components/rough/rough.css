@@ -1,0 +1,126 @@
+.product-showcase{
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png");  
+     background-size: cover;
+    background-position: right top;
+    background-color: blue;
+    padding-top: 100px;
+}
+
+.showcase-wrapper{
+   
+
+    min-height: 70%;
+    position: relative;
+
+        /* margin-top: 50px; */
+
+}
+
+.showcase-ui{
+    /* bottom: 0;
+    left: 0; */
+
+}
+
+.showcase-mockup-1{
+     position: absolute;
+    transform: translateX(-160%, 25%);
+    -webkit-transform: translateX(-160%, 25%);
+    -moz-transform: translateX(-160%, 25%);
+    -ms-transform: translateX(-160%, 25%);
+    -o-transform: translateX(-160%, 25%);
+    z-index:98;
+    bottom: -10%;
+    left: 10%;
+}
+.showcase-mockup-2{
+    position: absolute;
+    transform: translateX(-105%, 15%);
+    bottom: -5%;
+    left: 20%;
+    z-index:99;
+    -webkit-transform: translateX(-105%, 15%);
+    -moz-transform: translateX(-105%, 15%);
+    -ms-transform: translateX(-105%, 15%);
+    -o-transform: translateX(-105%, 15%);
+}
+.showcase-mockup-3{
+    position: absolute;
+    transform: translateX(-95%, 15%);
+    -webkit-transform: translateX(-95%, 15%);
+    -moz-transform: translateX(-95%, 15%);
+    -ms-transform: translateX(-95%, 15%);
+    -o-transform: translateX(-95%, 15%);
+    bottom: 0;
+    left: 35%;
+    z-index:100;
+}
+
+.showcase-mockup-4{
+    position: absolute;
+    transform: translateX(5%, 5%);
+    bottom: -5%;
+    left: 45%;
+    z-index:99;
+    -webkit-transform: translateX(5%, 5%);
+    -moz-transform: translateX(5%, 5%);
+    -ms-transform: translateX(5%, 5%);
+    -o-transform: translateX(5%, 5%);
+}
+.showcase-mockup-5{
+    position: absolute;
+    transform: translateX(-95%, 15%);
+    -webkit-transform: translateX(-95%, 15%);
+    -moz-transform: translateX(-95%, 15%);
+    -ms-transform: translateX(-95%, 15%);
+    -o-transform: translateX(-95%, 15%);
+    bottom: -10%;
+    left: 60%;
+    z-index:98;
+}
+
+@media all and (max-width:1279px){
+    .product-showcase{
+        padding-top: 0;
+    }
+    .product-showcase{
+        height: 450px;
+    }
+    .showcase-ui{
+        width: 170px;
+    }
+}
+
+/* //
+cred expeirience */
+
+
+
+.cred-experience{
+    background-image:   url("https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg");
+      /* background-color:; */
+      /* color: white; */
+  }
+  
+  @media all and (max-width:1279px) {
+      .cred-experience{
+          background-position: center bottom;
+      }
+  }
+  
+  @media all and (max-width:769px) {
+      .cred-experience{
+          background-image:url("https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg");
+          background-position: right center;
+          min-height: 1150px;
+      }
+  }
+  
+  
+  /* paste nr */
+  

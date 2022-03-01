@@ -1,0 +1,102 @@
+.product-showcase{
+            width: 100vw;
+            height: 800px;
+            position: relative;
+            overflow: hidden;
+            background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png");  
+            background-size: cover;
+            background-position: right top;
+            /* background-color: red; */
+            display: flex;
+}
+
+.showcase-container{
+        position: relative;
+        /* display: flex; */
+        height: inherit;
+        width: inherit;
+        padding-top: 70px;
+        
+}
+
+.showcase-wrapper{
+        
+}
+
+.showcase-ui{
+        left: 50%;
+        position: absolute;
+        bottom: 0;
+        min-height: 70%;
+      
+       
+     
+}
+.showcase-mockup-1{
+        position: absolute;
+        transform: translate(-160%, 25%);
+        -webkit-transform: translate(-160%, 25%);
+        -moz-transform: translate(-160%, 25%);
+        -ms-transform: translate(-160%, 25%);
+        -o-transform: translate(-160%, 25%);
+        z-index: 98;
+}
+.showcase-mockup-2{
+        transform: translate(-105%, 15%);
+        -webkit-transform: translate(-105%, 15%);
+        -moz-transform: translate(-105%, 15%);
+        -ms-transform: translate(-105%, 15%);
+        -o-transform: translate(-105%, 15%);
+        z-index: 99;
+}
+
+.showcase-mockup-3{
+        transform: translate(-50%,-5%);
+        -webkit-transform: translate(-50%,-5%);
+        -moz-transform: translate(-50%,-5%);
+        -ms-transform: translate(-50%,-5%);
+        -o-transform: translate(-50%,-5%);
+        z-index: 100;
+}       
+
+.showcase-mockup-4{
+        transform: translate(-5%, 15%);
+        -webkit-transform: translate(-5%, 15%);
+        -moz-transform: translate(-5%, 15%);
+        -ms-transform: translate(-5%, 15%);
+        -o-transform: translate(-5%, 15%);
+        z-index: 99;
+}
+.showcase-mockup-5{
+        transform: translate(60%, 20%);
+        -webkit-transform: translate(60%, 20%);
+        -moz-transform: translate(60%, 20%);
+        -ms-transform: translate(60%, 20%);
+        -o-transform: translate(60%, 20%);
+        z-index: 98;
+}       
+
+@media all and (max-width:1279px){
+        .product-showcase{
+            padding-top: 0;
+        }
+        .product-showcase{
+            height: 650px;
+        }
+        .showcase-ui{
+            width: 300px;
+        }
+    }
+
+    @media all and (max-width:769px){
+        .product-showcase{
+            padding-top: 0;
+        }
+        .product-showcase{
+            height: 450px;
+        }
+        .showcase-ui{
+            width: 170px;
+        }
+    }
+    
